@@ -1,0 +1,47 @@
+section#form{
+    width: 100%;
+    max-width: 580px;
+    margin: 30px auto 0;
+    padding: 0 30px;
+}
+
+form#new-post{
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form#new-post input{
+    margin-bottom: 20px;
+}
+
+form#new-post input[type="text"]{
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+form#new-post input[type="file"]{
+    font-size: 13px;
+    border: 1px solid #ddd;
+    
+}
+
+form#new-post span{
+    font-weight: bold;
+}
+
+form#new-post button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #7326BF;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
