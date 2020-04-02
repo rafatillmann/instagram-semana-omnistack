@@ -1,2 +1,2 @@
-# instagram semana omnistack :boooks:
+# instagram semana omnistack :books:
 
