@@ -8,7 +8,7 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
-mongoose.connect('', { // add on '' a mongodb connection string
+mongoose.connect('mongodb+srv://user:user@cluster0-wftje.mongodb.net/test?retryWrites=true&w=majority', { 
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
